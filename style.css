@@ -1,0 +1,42 @@
+body{
+
+    font-family: 'Amatic SC';
+    margin: 0;
+    padding: 0;
+    background-color: #9D4EDD;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    align-items: center;
+}
+
+nav {
+display: flex;
+gap: 84px;
+
+}
+
+nav a{
+    text-decoration: bold;
+    text-transform: uppercase;
+    font-size: 48;
+    color: #FFCD6B;
+}
+
+.button{
+    color: #FFCD6B;
+}
+
+.banner{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/Group\ 3.png);
+    background-position: center;
+    background-size: cover;
+}
